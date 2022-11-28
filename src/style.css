@@ -1,0 +1,160 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+    background-color: #06283D;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px 0px 30px 0px;
+    border-radius: 50px;
+    width: 70vw;
+    height: 100px;
+    background-color: #256D85;
+}
+
+.catIcon {
+    height: 50px;
+    width: 50px;
+}
+
+.toadAndYosh {
+    width: 400px;
+    height: auto;
+    border-radius: 80px;
+    border: 4px solid #256D85;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #DFF6FF;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color:#DFF6FF;
+}
+
+h3 {
+    font-size: 20px;
+    color: #DFF6FF;
+}
+
+.brag {
+    background-color: #256D85;
+    margin: 20px 0px;
+    padding: 8px;
+    border-radius: 10px;
+    width: 60vw;
+    height: 80px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    height: 100px;
+    width: 100vw;
+    background-color: #256D85;
+}
+
+.homeButton:hover, .menuButton:hover, 
+.aboutButton:hover {
+    transform: scale(1.2);
+    text-decoration: underline;
+}
+
+.images {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.kingsPictures {
+    height: 300px;
+    width: 300px;
+    border-radius: 40px;
+    border: 6px solid #47B5FF;;
+}
+
+.imgCaption {
+    display: flex;
+    justify-content: center;
+}
+
+.menuHolder {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-top: 40px;
+    align-items: center;
+    height: 100%;
+    width: 100vw;
+    gap: 40px;
+}
+
+.between {
+    width: 20vw;
+}
+
+.drinks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
