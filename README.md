@@ -1,0 +1,1 @@
+This restaurant page was made to help improve my js skills. The main skills gained during this lesson are basic familiarity with webpack and using modules in js to help sort code.
